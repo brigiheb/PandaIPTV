@@ -1,0 +1,73 @@
+.uicore-sidebar {
+  width: 300px;
+  flex-shrink: 0;
+  margin-right: 30px;  /* Space between sidebar and content */
+  position: sticky;  /* Sidebar sticks as the user scrolls */
+  top: 100px;  /* Adjust based on navbar height */
+  height: fit-content;  /* Prevent sidebar overflow */
+  align-self: flex-start;  /* Align to the top of the flex container */
+}
+
+.uicore-sidebar-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.uicore-widget {
+  margin-bottom: 30px;
+}
+
+.uicore-widget-title {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-field {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.search-submit {
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #ff9100;
+  color: #0f0d0d;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.search-submit:hover {
+  background-color: #f78e06;
+}
+
+.uicore-widget ul {
+  list-style: none;
+  padding: 0;
+}
+
+.uicore-widget ul li {
+  margin: 10px 0;
+}
+
+.uicore-widget ul li a {
+  text-decoration: none;
+  color: #1a2e01;
+  font-weight: 500;
+}
+
+.uicore-widget ul li a:hover {
+  text-decoration: underline;
+}

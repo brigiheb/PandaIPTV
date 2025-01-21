@@ -1,0 +1,59 @@
+.features-section {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #f9fbfd;
+  }
+  
+  .section-heading {
+    margin-bottom: 3rem;
+  }
+  
+  .why-choose-us {
+    font-size: 1rem;
+    color: #d48b1d;
+    font-weight: bold;
+  }
+  
+  .section-heading h2 {
+    font-size: 2rem;
+    color: #1a1a1a;
+  }
+  
+  .features-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .feature-card {
+    background: #fff;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .feature-card .icon {
+    margin-bottom: 1rem;
+    
+  }
+  
+  .feature-card h4 {
+    color: #d48b1d;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .feature-card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  

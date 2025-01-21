@@ -1,0 +1,50 @@
+.section-2 {
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  line-height: 1.8;
+}
+
+.section-2 h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #f1860a;
+}
+
+.section-2 p {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.section-2 strong {
+  font-weight: 600;
+  color: #222;
+}
+
+.section-2 a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.section-2 a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .section-2 {
+    padding: 20px;
+    max-width: 95%;
+  }
+
+  .section-2 h2 {
+    font-size: 1.5rem;
+  }
+
+  .section-2 p {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,99 @@
+.accordion-section {
+  padding: 7rem 4.5rem;
+  background-color: #f9fbff;
+  font-family: Arial, sans-serif;
+}
+
+.accordion-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 100px;
+}
+
+.accordion-item {
+  border-bottom: 2px solid #ff6b08;
+  cursor: pointer;
+}
+
+.accordion-title {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #e06b0b;
+  transition: all 0.3s ease;
+}
+
+.accordion-title:hover {
+  background-color: #f0f4ff;
+  color: #dba40c;
+}
+
+.accordion-title.active {
+  color: #2b2927;
+}
+
+.accordion-title .icon {
+  font-size: 1.2rem;
+  color: #292a2b;
+}
+
+.accordion-content {
+  padding: 2rem 1.5rem;
+  font-size: 1rem;
+  color: #575050;
+  background-color: #f9fbff;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .accordion-section {
+    padding: 5rem 2rem;
+  }
+
+  .accordion-container {
+    margin-right: 0;
+  }
+
+  .accordion-title {
+    font-size: 0.9rem;
+    padding: 1rem 1.5rem;
+  }
+
+  .accordion-content {
+    font-size: 0.9rem;
+    padding: 1.5rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .accordion-section {
+    padding: 3rem 1rem;
+  }
+
+  .accordion-title {
+    font-size: 0.8rem;
+    padding: 0.8rem 1rem;
+  }
+
+  .accordion-content {
+    font-size: 0.8rem;
+    padding: 1rem 0.8rem;
+  }
+}

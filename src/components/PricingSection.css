@@ -1,0 +1,106 @@
+/* Pricing Section Background */
+.pricing-section {
+    position: relative;
+    padding: 4rem 2rem;
+    background: url("../assets/images/pricing-background.png") no-repeat center center/cover;
+    color: rgb(10, 0, 0);
+    text-align: center;
+  }
+  
+  /* Section Title */
+  .section-heading h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    color: rgb(36, 37, 37);
+  }
+  
+  /* Plans Container */
+  .plans-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  /* Plan Card */
+  .plan-card {
+    /* background: rgba(124, 68, 54, 0.85); Semi-transparent dark background */
+    border: 2px solid #e64f09;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 280px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, border 0.3s;
+  }
+  
+  .plan-card:hover {
+    transform: translateY(-10px);
+    border-color: #af4804;
+  }
+  
+  /* Plan Duration */
+  .plan-duration {
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Plan Note */
+  .plan-note {
+    font-size: 0.9rem;
+    color: #f3870b;
+    margin-bottom: 1rem;
+  }
+  
+  /* Plan Price */
+  .plan-price {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #030200;
+    margin-bottom: 1.5rem;
+  }
+  
+  .plan-price span {
+    font-size: 1.2rem;
+    vertical-align: top;
+  }
+  
+  /* Features List */
+  .features-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+  
+  .features-list li {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+  }
+  
+  .features-list .check-icon {
+    margin-right: 0.5rem;
+    color: #70ee08;
+    font-weight: bold;
+  }
+  
+  /* Button */
+  .select-plan-btn {
+    background-color: #f58c04;
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  
+  .select-plan-btn:hover {
+    background-color: #993c06;
+  }
+  

@@ -1,0 +1,73 @@
+.ui-related-posts {
+    margin-top: 50px;
+    padding: 40px;
+    background-color: transparent;
+  }
+  
+  .uicore-container {
+    max-width: 900px;  /* Maintain a smaller width */
+    margin: 0 auto;  /* Center the section horizontally */
+    margin-left: 220px
+  }
+  
+  .uicore-row {
+    text-align: left;
+  }
+  
+  h3 {
+    font-size: 2rem;
+    color: #f1680d;  /* Dark blue heading */
+    margin-bottom: 30px;
+  }
+  
+  .uicore-grid-container {
+    display: flex;
+    flex-direction: column;  /* Stack posts vertically */
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .uicore-grid-item {
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+  }
+  
+  .uicore-post {
+    padding: 0;
+  }
+  
+  .uicore-post-title {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    color: #d16f13;
+  }
+  
+  .uicore-post-title a {
+    color: #d16f13;
+    text-decoration: none;
+  }
+  
+  .uicore-post-title a:hover {
+    text-decoration: underline;
+  }
+  
+  .uicore-post-category a {
+    color: #f15d07;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .uicore-post-footer {
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #555;
+  }
+  
+  .uicore-meta-separator {
+    margin: 0 8px;
+    color:#d16f13;
+  }
+  

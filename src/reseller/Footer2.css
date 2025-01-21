@@ -1,0 +1,37 @@
+/* Footer Container */
+.footer-section {
+    background-color: #1b1b1b; /* Dark Blue Background */
+    color: #ffffff; /* White Text Color */
+    text-align: center;
+    padding: 30px 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* We Accept Section */
+  .footer-accept {
+    margin-bottom: 20px;
+    text-align: center;
+
+  }
+  
+  .footer-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .footer-logos img.payment-logos {
+    width: 250px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Copyright Section */
+  .footer-copyright {
+    border-top: 1px solid #ffffff33; /* Subtle border */
+    padding-top: 15px;
+    font-size: 14px;
+    color: #cccccc;
+  }
+  
